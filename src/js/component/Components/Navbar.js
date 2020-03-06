@@ -1,9 +1,29 @@
 import React from "react";
+import _ from "lodash";
 
 export class Navbar extends React.Component {
+	state = [];
+
+	componentDidMount() {
+		document.addEventListener(
+			"scroll",
+			_.throttle(() => {
+				const colorscroll =
+					window.scrollY < 100 ? "transparent" : "blue";
+				this.setState({ navchange: colorscroll });
+			}, 100)
+		);
+	}
 	render() {
 		return (
-			<nav className="navbar navbar-expand-lg fixed-top navbar-light">
+			<nav
+				className="navbar navbar-expand-lg fixed-top navbar-light"
+				style={{
+					backgroundColor: `${this.state.navchange}`,
+					position: "fixed",
+					top: "0px",
+					width: "100%"
+				}}>
 				<div className="container">
 					<a className="navbar-brand" href="#">
 						Navbar
