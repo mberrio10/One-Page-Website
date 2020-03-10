@@ -9,8 +9,16 @@ export class Navbar extends React.Component {
 			"scroll",
 			_.throttle(() => {
 				const colorscroll =
-					window.scrollY < 100 ? "transparent" : "blue";
+					window.scrollY < 100 ? "transparent" : "black";
 				this.setState({ navchange: colorscroll });
+			}, 100)
+		);
+
+		document.addEventListener(
+			"scroll",
+			_.throttle(() => {
+				const fontscroll = window.scrollY < 100 ? "black" : "white";
+				this.setState({ fontchange: fontscroll });
 			}, 100)
 		);
 	}
@@ -25,7 +33,12 @@ export class Navbar extends React.Component {
 					width: "100%"
 				}}>
 				<div className="container">
-					<a className="navbar-brand" href="#">
+					<a
+						className="navbar-brand"
+						style={{
+							color: `${this.state.fontchange}`
+						}}
+						href="#">
 						Navbar
 					</a>
 					<button
@@ -42,13 +55,28 @@ export class Navbar extends React.Component {
 						className="collapse navbar-collapse justify-content-end"
 						id="navbarNavAltMarkup">
 						<div className="navbar-nav">
-							<a className="nav-item nav-link active" href="#">
+							<a
+								className="nav-item nav-link active"
+								style={{
+									color: `${this.state.fontchange}`
+								}}
+								href="#">
 								Home <span className="sr-only">(current)</span>
 							</a>
-							<a className="nav-item nav-link" href="#">
+							<a
+								className="nav-item nav-link"
+								style={{
+									color: `${this.state.fontchange}`
+								}}
+								href="#">
 								Features
 							</a>
-							<a className="nav-item nav-link" href="#">
+							<a
+								className="nav-item nav-link"
+								style={{
+									color: `${this.state.fontchange}`
+								}}
+								href="#">
 								Pricing
 							</a>
 						</div>
