@@ -21,6 +21,15 @@ export class Navbar extends React.Component {
 				this.setState({ fontchange: fontscroll });
 			}, 100)
 		);
+
+		document.addEventListener(
+			"scroll",
+			_.throttle(() => {
+				const sizescroll =
+					window.scrollY < 100 ? "40px 100px" : "5px 100px";
+				this.setState({ sizechange: sizescroll });
+			}, 100)
+		);
 	}
 	render() {
 		return (
@@ -28,9 +37,9 @@ export class Navbar extends React.Component {
 				className="navbar navbar-expand-lg fixed-top navbar-light"
 				style={{
 					backgroundColor: `${this.state.navchange}`,
-					position: "fixed",
-					top: "0px",
-					width: "100%"
+					padding: `${this.state.sizechange}`,
+					zIndex: "1000",
+					transition: "0.6s"
 				}}>
 				<div className="container">
 					<a
