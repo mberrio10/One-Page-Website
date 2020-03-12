@@ -1,8 +1,25 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
 
 body
 {
     min-height: 1000px;    
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.nav-item {
+    margin: 0px 15px;
+    letter-spacing: 2px;
+    font-weight: 300;
 }
 
 .jumbotron {
@@ -12,6 +29,19 @@ body
     background-size: cover;
     justify-content: center;
     align-items: center;
+}
+
+.jumbotron h1 {
+    font-size: 90px;
+    font-weight:700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1em;
+}
+
+.jumbotron h1 span {
+    color:#74f296;
 }
 
 /* 
