@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "./Components/Navbar";
 import { Banner } from "./Components/Banner";
 import { About } from "./Components/About";
+import { Services } from "./Components/Services";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -13,6 +14,7 @@ export function Home() {
 			<Navbar />
 			<Banner />
 			<About />
+			<Services />
 			<div className="text-center mt-5">
 				<h1>Hello Rigo!</h1>
 				<p>
