@@ -3,6 +3,8 @@ import { Navbar } from "./Components/Navbar";
 import { Banner } from "./Components/Banner";
 import { About } from "./Components/About";
 import { Services } from "./Components/Services";
+import { Stats } from "./Components/Stats";
+import { Portfolio } from "./Components/Portfolio";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -15,7 +17,9 @@ export function Home() {
 			<Banner />
 			<About />
 			<Services />
-			<div className="text-center mt-5">
+			<Stats />
+			<Portfolio />
+			{/*<div className="text-center mt-5">
 				<h1>Hello Rigo!</h1>
 				<p>
 					<img src={rigoImage} />
@@ -28,7 +32,7 @@ export function Home() {
 					<a href="http://www.4geeksacademy.com">4Geeks Academy</a>,
 					with love!
 				</p>
-			</div>
+            </div>*/}
 		</React.Fragment>
 	);
 }

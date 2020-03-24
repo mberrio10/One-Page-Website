@@ -111,6 +111,39 @@ p {
     font-weight: 700;
 }
 
+.stats {
+    background: #000;
+    padding-top: 250px;
+    padding-bottom: 200px;
+    margin-top: -135px;
+}
+ 
+ .stats h3, .stats p {
+     color: #fff;
+ }
+
+ .statBox {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+.statBox h2{
+    color: #fff;
+    font-size: 36px;
+}
+
+.statBox h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 /* 
     You can write your own styles here...
     
