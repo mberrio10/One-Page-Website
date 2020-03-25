@@ -3,9 +3,9 @@ import React from "react";
 export class Portfolio extends React.Component {
 	render() {
 		return (
-			<section className="work">
+			<section className="sec work">
 				<div className="container content">
-					<div className="row sec justify-content-center">
+					<div className="row mxw justify-content-center">
 						<h3>Recent Work</h3>
 						<p className="text-center">
 							Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -14,10 +14,10 @@ export class Portfolio extends React.Component {
 							nostrud exercitation ullamco.
 						</p>
 					</div>
-					<div className="row">
+					<div className="row justify-content-center">
 						<div className="col-sm-4">
-							<div className="card">
-								<div className="card-body">
+							<div className="card cardWork">
+								<div className="card-body bodyBrand">
 									<a href="#">
 										<h2>Brand Name</h2>
 									</a>
@@ -25,8 +25,8 @@ export class Portfolio extends React.Component {
 							</div>
 						</div>
 						<div className="col-sm-4">
-							<div className="card">
-								<div className="card-body">
+							<div className="card cardWork">
+								<div className="card-body bodyBrand">
 									<a href="#">
 										<h2>Brand Name</h2>
 									</a>
@@ -34,8 +34,8 @@ export class Portfolio extends React.Component {
 							</div>
 						</div>
 						<div className="col-sm-4">
-							<div className="card">
-								<div className="card-body">
+							<div className="card cardWork">
+								<div className="card-body bodyBrand">
 									<a href="#">
 										<h2>Brand Name</h2>
 									</a>
@@ -43,8 +43,8 @@ export class Portfolio extends React.Component {
 							</div>
 						</div>
 						<div className="col-sm-4">
-							<div className="card">
-								<div className="card-body">
+							<div className="card cardWork">
+								<div className="card-body bodyBrand">
 									<a href="#">
 										<h2>Brand Name</h2>
 									</a>
@@ -52,8 +52,8 @@ export class Portfolio extends React.Component {
 							</div>
 						</div>
 						<div className="col-sm-4">
-							<div className="card">
-								<div className="card-body">
+							<div className="card cardWork">
+								<div className="card-body bodyBrand">
 									<a href="#">
 										<h2>Brand Name</h2>
 									</a>
@@ -61,8 +61,8 @@ export class Portfolio extends React.Component {
 							</div>
 						</div>
 						<div className="col-sm-4">
-							<div className="card">
-								<div className="card-body">
+							<div className="card cardWork">
+								<div className="card-body bodyBrand">
 									<a href="#">
 										<h2>Brand Name</h2>
 									</a>

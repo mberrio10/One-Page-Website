@@ -3,9 +3,9 @@ import React from "react";
 export class About extends React.Component {
 	render() {
 		return (
-			<section className="about">
+			<section className="sec about">
 				<div className="container content">
-					<div className="row sec justify-content-center">
+					<div className="row mxw justify-content-center">
 						<h3>Who We Are</h3>
 						<p className="text-center">
 							Lorem ipsum dolor sit amet, consectetur adipiscing

@@ -3,9 +3,9 @@ import React from "react";
 export class Stats extends React.Component {
 	render() {
 		return (
-			<section className="stats">
+			<section className="sec stats">
 				<div className="container content">
-					<div className="row sec justify-content-center">
+					<div className="row mxw justify-content-center">
 						<h3>Our Achivements</h3>
 						<p className="text-center">
 							Lorem ipsum dolor sit amet, consectetur adipiscing
