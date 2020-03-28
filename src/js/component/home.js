@@ -5,6 +5,7 @@ import { About } from "./Components/About";
 import { Services } from "./Components/Services";
 import { Stats } from "./Components/Stats";
 import { Portfolio } from "./Components/Portfolio";
+import { Team } from "./Components/Team";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -19,6 +20,7 @@ export function Home() {
 			<Services />
 			<Stats />
 			<Portfolio />
+			<Team />
 			{/*<div className="text-center mt-5">
 				<h1>Hello Rigo!</h1>
 				<p>

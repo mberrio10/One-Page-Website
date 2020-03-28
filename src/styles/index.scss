@@ -178,6 +178,46 @@ p {
     color: rgba(255,255,255,1);
 }
 
+.teamCard .designerCard .card-img-top {
+    /*position: absolute;*/
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    height: 100%;
+    object-fit: cover;
+}
+
+.teamCard .designerCard .designerDetail {
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    transition: 0.2s;
+    opacity: 0;
+}
+
+.teamCard .designerCard:hover .designerDetail {
+    opacity: 1;
+}
+
+.teamCard .designerCard .designerDetail .card-title {
+    color: #fff;
+    text-transform: uppercase;
+    /* font-size: 20px; */
+    letter-spacing: 1px;
+}
+
+.teamCard .designerCard .designerDetail h5 span {
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+}
+
 /* 
     You can write your own styles here...
     
