@@ -218,6 +218,34 @@ p {
     font-weight: 300;
 }
 
+.contact {
+    background: #000;
+    color: #fff;
+}
+
+.nameMessage .form-group {
+    margin: 0 20px
+}
+
+.textMessage {
+    margin-right: -35px;
+    margin-left: -35px;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 0;
+    resize: none;
+}
+
 /* 
     You can write your own styles here...
     
