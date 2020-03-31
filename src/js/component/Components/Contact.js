@@ -46,6 +46,13 @@ export class Contact extends React.Component {
 							</button>
 						</div>
 					</form>
+					<div className="row iconFooter justify-content-center">
+						<ul>
+							<a href="#" className="fab fa-facebook" />
+							<a href="#" className="fab fa-instagram" />
+							<a href="#" className="fab fa-linkedin" />
+						</ul>
+					</div>
 				</div>
 			</section>
 		);
