@@ -13,6 +13,14 @@ export class Navbar extends React.Component {
 				this.setState({ navchange: colorscroll });
 			}, 100)
 		);
+		document.addEventListener(
+			"scroll",
+			_.throttle(() => {
+				const togglescroll =
+					window.scrollY < 100 ? "transparent" : "white";
+				this.setState({ togglechange: togglescroll });
+			}, 100)
+		);
 
 		document.addEventListener(
 			"scroll",
@@ -52,6 +60,9 @@ export class Navbar extends React.Component {
 					</a>
 					<button
 						className="navbar-toggler"
+						style={{
+							backgroundColor: `${this.state.togglechange}`
+						}}
 						type="button"
 						data-toggle="collapse"
 						data-target="#navbarNavAltMarkup"

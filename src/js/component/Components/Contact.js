@@ -53,6 +53,16 @@ export class Contact extends React.Component {
 							<a href="#" className="fab fa-linkedin" />
 						</ul>
 					</div>
+					<div className="row webFooter justify-content-center">
+						<p className="card-text">
+							<small className="text-muted">
+								Designed & Developed by{" "}
+								<a className="ancFooter" hrf="#">
+									Groovy Webs
+								</a>
+							</small>
+						</p>
+					</div>
 				</div>
 			</section>
 		);

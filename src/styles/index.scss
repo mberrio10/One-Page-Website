@@ -254,6 +254,7 @@ p {
 }
 
 .btn {
+    letter-spacing: 2px;
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -276,6 +277,17 @@ a:hover {
     color: lightgray;
     // text-decoration: underline;
     opacity: 0.5;
+}
+
+.webFooter p small a.ancFooter {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.webFooter p small a:hover.ancFooter {
+    color: dodgerblue;
 }
 /* 
     You can write your own styles here...
