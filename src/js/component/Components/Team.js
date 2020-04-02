@@ -8,7 +8,7 @@ export class Team extends React.Component {
 	render() {
 		return (
 			<section className="sec">
-				<div className="container content">
+				<div className="container-fluid content">
 					<div className="row mxw justify-content-center">
 						<h3>Meet Our Experts</h3>
 						<p className="text-center">
@@ -19,7 +19,7 @@ export class Team extends React.Component {
 						</p>
 					</div>
 					<div className="row row-cols-1 row-cols-md-4 text-center">
-						<div className="col mb-4 teamCard">
+						<div className="col-md-auto teamCard">
 							<div className="card h-100 designerCard">
 								<img
 									src="1.jpg"
@@ -34,7 +34,7 @@ export class Team extends React.Component {
 								</div>
 							</div>
 						</div>
-						<div className="col mb-4 teamCard">
+						<div className="col-md-auto teamCard">
 							<div className="card h-100 designerCard">
 								<img
 									src="2.jpg"
@@ -49,7 +49,7 @@ export class Team extends React.Component {
 								</div>
 							</div>
 						</div>
-						<div className="col mb-4 teamCard">
+						<div className="col-md-auto teamCard">
 							<div className="card h-100 designerCard">
 								<img
 									src="3.jpg"
@@ -64,7 +64,7 @@ export class Team extends React.Component {
 								</div>
 							</div>
 						</div>
-						<div className="col mb-4 teamCard">
+						<div className="col-md-auto teamCard">
 							<div className="card h-100 designerCard">
 								<img
 									src="4.jpg"

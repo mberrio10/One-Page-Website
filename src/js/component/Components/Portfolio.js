@@ -15,7 +15,7 @@ export class Portfolio extends React.Component {
 						</p>
 					</div>
 					<div className="row justify-content-center">
-						<div className="col-sm-4">
+						<div className="col-md-auto">
 							<div className="card cardWork">
 								<div className="card-body bodyBrand">
 									<a href="#">
@@ -24,7 +24,7 @@ export class Portfolio extends React.Component {
 								</div>
 							</div>
 						</div>
-						<div className="col-sm-4">
+						<div className="col-md-auto">
 							<div className="card cardWork">
 								<div className="card-body bodyBrand">
 									<a href="#">
@@ -33,7 +33,7 @@ export class Portfolio extends React.Component {
 								</div>
 							</div>
 						</div>
-						<div className="col-sm-4">
+						<div className="col-md-auto">
 							<div className="card cardWork">
 								<div className="card-body bodyBrand">
 									<a href="#">
@@ -42,7 +42,7 @@ export class Portfolio extends React.Component {
 								</div>
 							</div>
 						</div>
-						<div className="col-sm-4">
+						<div className="col-md-auto">
 							<div className="card cardWork">
 								<div className="card-body bodyBrand">
 									<a href="#">
@@ -51,7 +51,7 @@ export class Portfolio extends React.Component {
 								</div>
 							</div>
 						</div>
-						<div className="col-sm-4">
+						<div className="col-md-auto">
 							<div className="card cardWork">
 								<div className="card-body bodyBrand">
 									<a href="#">
@@ -60,7 +60,7 @@ export class Portfolio extends React.Component {
 								</div>
 							</div>
 						</div>
-						<div className="col-sm-4">
+						<div className="col-md-auto">
 							<div className="card cardWork">
 								<div className="card-body bodyBrand">
 									<a href="#">
