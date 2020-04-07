@@ -17,50 +17,52 @@ export class Services extends React.Component {
 							nostrud exercitation ullamco laboris nisi.
 						</p>
 					</div>
-					<div className="card-deck text-center">
-						<div className="card">
-							<img
-								src="icon1.png"
-								className="card-img-top"
-								alt="..."
-							/>
-							<div className="card-body">
-								<h5 className="card-title">Design</h5>
-								<p className="card-text">
-									Lorem ipsum dolor sit amet, consectetur
-									adipiscing elit, sed do eiusmod tempor
-									incididunt ut labore et
-								</p>
+					<div className="row justify-content-center">
+						<div className="card-deck text-center">
+							<div className="card">
+								<img
+									src="icon1.png"
+									className="card-img-top"
+									alt="..."
+								/>
+								<div className="card-body">
+									<h5 className="card-title">Design</h5>
+									<p className="card-text">
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit, sed do eiusmod tempor
+										incididunt ut labore et
+									</p>
+								</div>
 							</div>
-						</div>
-						<div className="card">
-							<img
-								src="icon2.png"
-								className="card-img-top"
-								alt="..."
-							/>
-							<div className="card-body">
-								<h5 className="card-title">Development</h5>
-								<p className="card-text">
-									Lorem ipsum dolor sit amet, consectetur
-									adipiscing elit, sed do eiusmod tempor
-									incididunt ut labore et
-								</p>
+							<div className="card">
+								<img
+									src="icon2.png"
+									className="card-img-top"
+									alt="..."
+								/>
+								<div className="card-body">
+									<h5 className="card-title">Development</h5>
+									<p className="card-text">
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit, sed do eiusmod tempor
+										incididunt ut labore et
+									</p>
+								</div>
 							</div>
-						</div>
-						<div className="card">
-							<img
-								src="icon3.png"
-								className="card-img-top"
-								alt="..."
-							/>
-							<div className="card-body">
-								<h5 className="card-title">Branding</h5>
-								<p className="card-text">
-									Lorem ipsum dolor sit amet, consectetur
-									adipiscing elit, sed do eiusmod tempor
-									incididunt ut labore et
-								</p>
+							<div className="card">
+								<img
+									src="icon3.png"
+									className="card-img-top"
+									alt="..."
+								/>
+								<div className="card-body">
+									<h5 className="card-title">Branding</h5>
+									<p className="card-text">
+										Lorem ipsum dolor sit amet, consectetur
+										adipiscing elit, sed do eiusmod tempor
+										incididunt ut labore et
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>

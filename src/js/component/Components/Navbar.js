@@ -34,7 +34,7 @@ export class Navbar extends React.Component {
 			"scroll",
 			_.throttle(() => {
 				const sizescroll =
-					window.scrollY < 100 ? "40px 100px" : "0px 100px";
+					window.scrollY < 100 ? "40px 1rem" : "0px 1rem";
 				this.setState({ sizechange: sizescroll });
 			}, 100)
 		);

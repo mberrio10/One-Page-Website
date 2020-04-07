@@ -54,7 +54,9 @@ export class Contact extends React.Component {
 						</ul>
 					</div>
 					<div className="row webFooter justify-content-center">
-						<p className="card-text">
+						<p
+							className="card-text"
+							style={{ textAlign: "center" }}>
 							<small className="text-muted">
 								Designed & Developed by{" "}
 								<a className="ancFooter" hrf="#">
