@@ -3,7 +3,7 @@ import React from "react";
 export class Portfolio extends React.Component {
 	render() {
 		return (
-			<section className="sec work">
+			<section className="sec work" id="portfolio">
 				<div className="container content">
 					<div className="row mxw justify-content-center">
 						<h3>Recent Work</h3>

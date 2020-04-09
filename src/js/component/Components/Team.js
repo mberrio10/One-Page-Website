@@ -7,7 +7,7 @@ import Image4 from "../../../img/4.jpg";
 export class Team extends React.Component {
 	render() {
 		return (
-			<section className="sec">
+			<section className="sec" id="team">
 				<div className="container-fluid content">
 					<div className="row mxw justify-content-center">
 						<h3>Meet Our Experts</h3>

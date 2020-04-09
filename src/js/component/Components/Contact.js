@@ -3,7 +3,7 @@ import React from "react";
 export class Contact extends React.Component {
 	render() {
 		return (
-			<section className="sec contact">
+			<section className="sec contact" id="contact">
 				<div className="container content">
 					<div className="row mxw justify-content-center">
 						<h3>Send Us A Message</h3>

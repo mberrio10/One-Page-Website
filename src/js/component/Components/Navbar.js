@@ -88,16 +88,40 @@ export class Navbar extends React.Component {
 								style={{
 									color: `${this.state.fontchange}`
 								}}
-								href="#">
-								Features
+								href="#about">
+								About
 							</a>
 							<a
 								className="nav-item nav-link"
 								style={{
 									color: `${this.state.fontchange}`
 								}}
-								href="#">
-								Pricing
+								href="#services">
+								Services
+							</a>
+							<a
+								className="nav-item nav-link"
+								style={{
+									color: `${this.state.fontchange}`
+								}}
+								href="#portfolio">
+								Portfolio
+							</a>
+							<a
+								className="nav-item nav-link"
+								style={{
+									color: `${this.state.fontchange}`
+								}}
+								href="#team">
+								Team
+							</a>
+							<a
+								className="nav-item nav-link"
+								style={{
+									color: `${this.state.fontchange}`
+								}}
+								href="#contact">
+								Contact
 							</a>
 						</div>
 					</div>

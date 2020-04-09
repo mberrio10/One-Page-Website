@@ -3,7 +3,7 @@ import React from "react";
 export class About extends React.Component {
 	render() {
 		return (
-			<section className="sec about">
+			<section className="sec about" id="about">
 				<div className="container content">
 					<div className="row mxw justify-content-center">
 						<h3>Who We Are</h3>

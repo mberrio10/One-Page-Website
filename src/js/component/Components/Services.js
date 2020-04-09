@@ -6,7 +6,7 @@ import iconImage3 from "../../../img/icon3.png";
 export class Services extends React.Component {
 	render() {
 		return (
-			<section className="sec services">
+			<section className="sec services" id="services">
 				<div className="container content">
 					<div className="row mxw justify-content-center">
 						<h3>What we do</h3>
