@@ -5,8 +5,8 @@ export class Banner extends React.Component {
 		return (
 			<div className="jumbotron jumbotron-fluid">
 				<h1 className="display-4">
-					We Make <br />
-					<span>businesses</span> spotless
+					Lorem ipsum <br />
+					<span>dolor</span> sit amet
 				</h1>
 			</div>
 		);
