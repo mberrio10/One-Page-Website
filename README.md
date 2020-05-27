@@ -1,6 +1,6 @@
 # Bussines/Startup One Page website
 
-This template was develop using create-react-app boilerplate created by for 4Geeks Academy. this is a professional, full-responsive, and high performance One Page site, developed using HTML5,CSS3, Bootstrap, and React.js. you can dowload this repo overwrite and customize anything to your needs.
+This template was develop using create-react-app boilerplate created by for [4Geeks Academy](https://www.4geeksacademy.co/). this is a professional, full-responsive, and high performance One Page site, developed using HTML5,CSS3, Bootstrap, and React.js. you can dowload this repo overwrite and customize anything to your needs.
 
 #### Download the boilerplate using git
 
